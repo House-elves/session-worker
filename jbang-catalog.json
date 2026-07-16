@@ -1,0 +1,9 @@
+{
+  "catalogs": {},
+  "aliases": {
+    "session-worker": {
+      "script-ref": "SessionWorker.java",
+      "description": "House Elf that runs Claude Code sessions from principal email, via the elf-bus."
+    }
+  }
+}
