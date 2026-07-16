@@ -5,15 +5,15 @@
 //DEPS jakarta.mail:jakarta.mail-api:2.1.3
 //DEPS org.eclipse.angus:angus-mail:2.0.3
 //SOURCES Config.java SessionRunner.java ThreadStore.java Installer.java
-//SOURCES https://raw.githubusercontent.com/House-elves/elf-bus-common/v1.0.0/EnvelopeOptions.java
-//SOURCES https://raw.githubusercontent.com/House-elves/elf-bus-common/v1.0.0/ElfBusEnvelope.java
-//SOURCES https://raw.githubusercontent.com/House-elves/elf-bus-common/v1.0.0/ElfBusHandler.java
-//SOURCES https://raw.githubusercontent.com/House-elves/elf-bus-common/v1.0.0/ElfBusProducer.java
-//SOURCES https://raw.githubusercontent.com/House-elves/elf-bus-common/v1.0.0/ElfBusInboxes.java
-//SOURCES https://raw.githubusercontent.com/House-elves/elf-bus-common/v1.0.0/ElfBusSeenIds.java
-//SOURCES https://raw.githubusercontent.com/House-elves/elf-bus-common/v1.0.0/FileSystemBus.java
-//SOURCES https://raw.githubusercontent.com/House-elves/elf-bus-common/v1.0.0/ElfBusConsumer.java
-//SOURCES https://raw.githubusercontent.com/House-elves/elf-bus-common/v1.0.0/InMemoryBus.java
+//SOURCES https://raw.githubusercontent.com/House-elves/elf-bus-common/v1.0.1/EnvelopeOptions.java
+//SOURCES https://raw.githubusercontent.com/House-elves/elf-bus-common/v1.0.1/ElfBusEnvelope.java
+//SOURCES https://raw.githubusercontent.com/House-elves/elf-bus-common/v1.0.1/ElfBusHandler.java
+//SOURCES https://raw.githubusercontent.com/House-elves/elf-bus-common/v1.0.1/ElfBusProducer.java
+//SOURCES https://raw.githubusercontent.com/House-elves/elf-bus-common/v1.0.1/ElfBusInboxes.java
+//SOURCES https://raw.githubusercontent.com/House-elves/elf-bus-common/v1.0.1/ElfBusSeenIds.java
+//SOURCES https://raw.githubusercontent.com/House-elves/elf-bus-common/v1.0.1/FileSystemBus.java
+//SOURCES https://raw.githubusercontent.com/House-elves/elf-bus-common/v1.0.1/ElfBusConsumer.java
+//SOURCES https://raw.githubusercontent.com/House-elves/elf-bus-common/v1.0.1/InMemoryBus.java
 
 import picocli.CommandLine;
 import picocli.CommandLine.Command;
