@@ -2,7 +2,7 @@
 
 A [House Elf](https://github.com/House-elves) that turns the principal's email into Claude Code sessions on the host. Email bin chicken from anywhere; the reply you get back is a live session's answer, and replying to it continues the same session - context and all.
 
-session-worker never touches the mailbox. [mail-worker](https://github.com/House-elves/mail-worker) owns the mail credentials and the trust gate, and hands work over on the [elf-bus](https://github.com/House-elves/elf-bus-common) as `session.run` envelopes.
+session-worker never touches the mailbox. mail-worker (private) owns the mail credentials and the trust gate, and hands work over on the [elf-bus](https://github.com/House-elves/elf-bus-common) as `session.run` envelopes.
 
 ## How a mail trail becomes a session
 
@@ -78,7 +78,7 @@ Stored in `~/.config/session-worker/config` as `KEY=VALUE` lines:
 ## See also
 
 - [elf-bus-common](https://github.com/House-elves/elf-bus-common) - the bus transport + the `session.run` kind spec
-- [mail-worker](https://github.com/House-elves/mail-worker) - the mailbox side of this feature
+- mail-worker (private) - the mailbox side of this feature
 
 ## License
 
